@@ -1,0 +1,12 @@
+local games = {}
+
+games[4855457388] = "demonfall"
+
+local clonef = clonefunction
+local loading = clonef(loadstring)
+
+
+if games[game.PlaceId] then
+	local str = "https://raw.githubusercontent.com/yolo5128/HumilityCC/main/[n]"
+	loading(game:HttpGet("https://raw.githubusercontent.com/yolo5128/HumilityCC/main/" .. games[game.PlaceId]))()
+end
