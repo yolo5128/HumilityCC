@@ -7,6 +7,6 @@ local loading = clonef(loadstring)
 
 
 if games[game.PlaceId] then
-	local str = "https://raw.githubusercontent.com/9valid/HubFreeMM/main/[n]"
-	loading(game:HttpGet("https://raw.githubusercontent.com/9valid/HubFreeMM/main/" .. games[game.PlaceId]))()
+	local str = "https://raw.githubusercontent.com/yolo5128/HumilityCC/main/[n]"
+	loading(game:HttpGet("https://raw.githubusercontent.com/yolo5128/HumilityCC/main/" .. games[game.PlaceId]))()
 end
